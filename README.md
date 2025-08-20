@@ -19,7 +19,7 @@ XStore disputes an invoice from Cymbal Direct after receiving a short shipment o
 
 Watch the demo video to see the scenario in action:
 
-[![Watch the video](./docs/img/demo.png)](https://video.sap.com/embed/secure/iframe/entryId/1_kcgq0nd4/uiConfId/54310412/st/0)
+[![Watch the video](./docs/img/demo.png)](https://sapvideo.cfapps.eu10-004.hana.ondemand.com/?entry_id=1_kcgq0nd4)
 
 ### Scenario Breakdown
 
@@ -28,7 +28,7 @@ Watch the demo video to see the scenario in action:
   - Identifies required agents from the Agent Catalog.
   - Creates a task plan for orchestration.
 - **Agent Orchestration**:
-  - **Dispute Resolution Agent (SAP)**: Confirms invoice and shipment data from SAP S/4HANA; expected 1,000 units.
+  - **Dispute Resolution Agent, mocked (SAP)**: Confirms invoice and shipment data from SAP S/4HANA; expected 1,000 units.
   - **Warehouse Insights Agent (Google)**: Analyzes logistics and retrieves a packaging slip showing only 900 t-shirts shipped.
   - **Dispute Policy & Email Agent (Microsoft)**: Retrieves communication logs and creates an email draft to the customer according to the dispute policy.
 - **Response to User**:
