@@ -71,7 +71,7 @@ npm run watch  # hybrid profile, needs BAF credentials
 ```
 Needs:
 - `.cdsrc.json` (copy from `.cdsrc-sample.json`) — `agentId`
-- `.cdsrc-private.json` (copy from `.cdsrc-private-sample.json`) — BAF OAuth credentials (`clientid`, `clientsecret`, `tokenUrl`, `apiUrl`, `agent_api_url`)
+- `.cdsrc-private.json` (copy from `.cdsrc-private-sample.json`) — BAF OAuth credentials (`clientid`, `clientsecret`, `tokenUrl`, `apiUrl`, `agent_api_url`). Sample file was added by @steveandroulakis for the Temporal workshop to enable mock server connectivity.
 
 ### We won't have BAF credentials
 

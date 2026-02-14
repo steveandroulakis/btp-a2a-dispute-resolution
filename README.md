@@ -70,6 +70,10 @@ To run this project, ensure you have access to the following components:
   - [azure-ai-foundry-a2a](/agents/azure-ai-foundry-a2a/): Agent deployed on Azure based on A2A and exposed Agent Card via Open Resource Discovery (ORD).
       - `dispute-email-agent`: Agent that creates email drafts according to specific dispute policies for dispute resolution.
 
+## Workshop Additions
+
+The `.cdsrc-private-sample.json` file in `agents/sap-agent-builder-a2a/agent-builder-a2a-agent-connector/` was added by @steveandroulakis for the Temporal workshop to enable connection to the mock BAF server (no live BAF credentials required).
+
 ## Known Issues
 No known issues.
 
