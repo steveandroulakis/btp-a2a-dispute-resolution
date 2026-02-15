@@ -4,7 +4,7 @@ Multi-agent orchestration demo. Three agents (SAP, Google, Azure) collaborate vi
 
 ## Why we care
 
-This is the codebase for **Workshop Hour 3**. We're forking the SAP agent connector, replacing BafAgentClient's crash-vulnerable `while(true)` polling loop with a Temporal Workflow. See `../../README.md` for full exercise spec.
+This is the codebase for **Workshop Hour 3**. We're forking the SAP agent connector, replacing BafAgentClient's crash-vulnerable `while(true)` polling loop with a Temporal Workflow. See `../README.md` for full exercise spec.
 
 **The key file:** `agents/sap-agent-builder-a2a/agent-builder-a2a-agent-connector/srv/BafAgentClient.ts` — `while(true)` loop holds `chatId`, `historyId`, loop position in memory. Crash = everything lost.
 
@@ -95,7 +95,7 @@ Cloud Foundry via MTA. Each component has `mta.yaml` + `npm run deploy`. BAF ser
 
 ## References
 
-- `../../references/baf-agent-client-analysis.md` — crash vulnerability analysis + Temporal mapping
-- `../../references/temporal-ai-sdk-and-sap-adapter.md` — how Temporal AI SDK + SAP adapter compose
-- `../../resources/baf-architecture-diagram.md` — mermaid diagram of BAF/Agent Builder/A2A architecture
-- `../../README.md` — exercise spec for all 4 hours
+- `../resources/baf-agent-client-analysis.md` — crash vulnerability analysis + Temporal mapping
+- `../resources/temporal-ai-sdk-and-sap-adapter.md` — how Temporal AI SDK + SAP adapter compose
+- `../resources/baf-architecture-diagram.md` — mermaid diagram of BAF/Agent Builder/A2A architecture
+- `../README.md` — exercise spec for all 4 hours
