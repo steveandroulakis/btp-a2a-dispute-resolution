@@ -95,7 +95,4 @@ Cloud Foundry via MTA. Each component has `mta.yaml` + `npm run deploy`. BAF ser
 
 ## References
 
-- `../resources/baf-agent-client-analysis.md` — crash vulnerability analysis + Temporal mapping
-- `../resources/temporal-ai-sdk-and-sap-adapter.md` — how Temporal AI SDK + SAP adapter compose
-- `../resources/baf-architecture-diagram.md` — mermaid diagram of BAF/Agent Builder/A2A architecture
 - `../README.md` — exercise spec for all 4 hours
